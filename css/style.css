@@ -4,6 +4,37 @@ body {
 }
 
 .navbar{
-    border-bottom: green 3px solid;
+    border-bottom: rgb(72, 190, 72) 3px solid;
     opacity: 0.9;
+}
+
+#home-section {
+    background: url('../img/cover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section .dark-overlayer {
+    top: 0;
+    left: 0;
+    min-height: 700px;
+    width: 100%;
+    position: absolute;
+    background: rgb(0,0, 0,0.7);
+}
+
+#home-section .home-inner {
+    padding-top: 160px;
+}
+
+#home-section .card-form{
+    opacity: 10;
+}
+
+#home-section .fa {
+    color:rgb(72, 190, 72);
+    background: #fff;
+    border-radius: 5px;
 }
