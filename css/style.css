@@ -4,12 +4,12 @@ body {
 }
 
 .navbar{
-    border-bottom: rgb(72, 190, 72) 3px solid;
+    border-bottom: rgb(246, 247, 246) 3px solid;
     opacity: 0.9;
 }
 
 #home-section {
-    background: url('../img/cover.png');
+    background: url('../img/bg3.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -30,11 +30,18 @@ body {
 }
 
 #home-section .card-form{
-    opacity: 10;
+    opacity: 0.9;
 }
 
 #home-section .fa {
-    color:rgb(72, 190, 72);
-    background: #fff;
+    color:#fff;
+    background: rgb(54, 49, 49);
+    border-radius: 5px;
+}
+
+#explore-section .fa{
+    background: #333;
+    color: #fff;
+    padding: 5px;
     border-radius: 5px;
 }
